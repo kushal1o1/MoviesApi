@@ -21,3 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('movie.urls')),
 ]
+
+admin.site.site_header='Movie Api'
+admin.site.site_title ='Admin Pannel'
